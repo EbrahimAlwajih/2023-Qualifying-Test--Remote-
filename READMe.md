@@ -15,3 +15,8 @@ Find any pair of numbers with niceness $605$, where both numbers have $4$ digits
 <br>
 ### The solution is solved and can be found in [Here](https://github.com/EbrahimAlwajih/2023-Qualifying-Test--Remote-/blob/main/Nice%20Pairs.ipynb). Or [.py file](https://github.com/EbrahimAlwajih/2023-Qualifying-Test--Remote-/blob/main/Nice%20Pairs.py)
 
+---
+
+
+### Q3: What is the value of 'count' after executing the following code?
+### The solution is solved and can be found in [Here](https://github.com/EbrahimAlwajih/2023-Qualifying-Test--Remote-/blob/main/Run%20the%20Code.ipynb)
