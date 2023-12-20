@@ -4,14 +4,14 @@ from itertools import combinations
 strip_length = 8
 strokes = 3
 
-# Each stroke paints 3 neighboring cells, so each stroke effectively covers 3 squares
+#Each stroke paints a number of neighboring cells. In this question, it is specified as 2, so each stroke effectively covers 2 squares.
 cells_covered_per_stroke = 2
 
 # Total cells covered by all strokes
 total_cells_covered = cells_covered_per_stroke * strokes
 
 # Generate all possible combinations of starting positions for the strokes
-# Since each stroke covers 3 cells, the starting position of each stroke must be in the range [0, strip_length - cells_covered_per_stroke]
+# Since each stroke covers a specific number of neighboring cells, the starting position of each stroke must fall within the range of [0, strip_length - cells_covered_per_stroke]
 possible_starts = range(strip_length - cells_covered_per_stroke + 1)
 
 # Generate combinations of starting positions for the strokes
