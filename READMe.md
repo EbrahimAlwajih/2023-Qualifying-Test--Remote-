@@ -18,5 +18,15 @@ Find any pair of numbers with niceness $605$, where both numbers have $4$ digits
 ---
 
 
-### Q3: What is the value of 'count' after executing the following code?
+### Q3 (Run the Code): 
+What is the value of 'count' after executing the following code?
+
+```
+count = 0
+for i in range (16, 109) :
+    if i % 7 == 2:
+        count += 1
+count   
+```
+
 ### The solution is solved and can be found in [Here](https://github.com/EbrahimAlwajih/2023-Qualifying-Test--Remote-/blob/main/Run_the_Code.ipynb)
