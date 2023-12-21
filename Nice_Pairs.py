@@ -10,13 +10,15 @@ found_pair = None
 for a in range(1000, 10000):
     for b in range(1000, 10000):
         if (a ** 2 - b ** 2 - a * b) == niceness_target:
-            found_pair = (a, b)
+            found_pair = (a, b) # save the found pair in a tuple
             break  # Exit the inner loop if a pair is found
     if found_pair:
+        print(type(found_pair))
         break  # Exit the outer loop if a pair is found
 
 # Compute the final number as (10000*a) + b if a pair is found
 final_number = (10000 * found_pair[0] + found_pair[1]) if found_pair else None
-print(final_number, found_pair)
+
+#print(final_number, found_pair)
 
 
