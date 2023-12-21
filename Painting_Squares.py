@@ -16,7 +16,7 @@ possible_starts = range(strip_length - cells_covered_per_stroke + 1)
 
 # Generate combinations of starting positions for the strokes
 combinations_of_starts = list(combinations(possible_starts, strokes))
-
+print(combinations_of_starts)
 # Filter out invalid combinations where strokes overlap
 valid_combinations = []
 for combination in combinations_of_starts:
