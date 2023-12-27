@@ -21,4 +21,9 @@ final_number = (10000 * found_pair[0] + found_pair[1]) if found_pair else None
 
 #print(final_number, found_pair)
 
+r = 0
+for i in range (100):
+    r = (179 * r + 421) % 509
+r
+
 
