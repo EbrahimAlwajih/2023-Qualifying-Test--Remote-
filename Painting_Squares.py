@@ -1,11 +1,12 @@
 from itertools import combinations
 
 # Define the length of the strip and the number of strokes
-strip_length = 9
+strip_length = 8
 strokes = 3
 
+
 #Each stroke paints a number of neighboring cells. In this question, it is specified as 2, so each stroke effectively covers 2 squares.
-cells_covered_per_stroke = 3
+cells_covered_per_stroke = 2
 
 # Total cells covered by all strokes
 total_cells_covered = cells_covered_per_stroke * strokes
